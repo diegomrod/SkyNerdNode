@@ -1,18 +1,19 @@
 # SkyNerd Node
 
-## Objective
+## Objetivo
 
+Criar uma versão da rede social SkyNerd em Node.
 
+## Uso
 
-## Usage
-
-
+Em desenvolvimento.
 
 ## Developing
 
-
+O projeto utiliza a framework express.
 
 ### Tools
 
-Created with [Nodeclipse v0.5](https://github.com/Nodeclipse/nodeclipse-1)
- ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   
+Express - Controllers/Models
+Jade - Views
+MySql - Database
