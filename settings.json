@@ -1,0 +1,32 @@
+{
+  "SITE_NAME" : "SkyNerd",
+  "PROJECT_DIR" : "SkyNerdNode",
+  "TIME_ZONE" : "America/Sao_Paulo",
+  "DATABASE_ENGINE" : "Mysql",
+  "NUMBER_OF_POSTS_LOADED_PER_TIME" : 15,
+  
+  "HTTP_HOST" : "localhost",
+  "HTTP_PORT" : 3000,
+  
+  "DATABASE" : {
+    "HOST" : "localhost",
+	"NAME" : "skynerd",
+	"USER" : "root",
+	"PASS" : "",
+    "TABLES" : {
+      "TESTE" : ""
+    }
+  },
+
+  "MAIL" : {
+    "SERVICE" : "Gmail",
+    "USER" : "skynerd@email.com",
+    "PASS" : "senha_do_email_encrpt"
+  },
+  
+  "AVATAR_UPLOAD_DIR" : "",
+  "AVATAR_DIR" : "",
+  
+  "POST_IMAGES_DIR" : "",
+  "POST_IMAGES_UPLOADS_DIR" : ""
+}

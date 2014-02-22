@@ -1,0 +1,28 @@
+{
+  "name": "SkyNerdNode",
+  "version": "0.1.0",
+  "description": "SkyNerd escrita em NodeJS",
+  "main": "skynerd.js",
+  "scripts": {
+    "start": "node skynerd"
+  },
+  "repository": "",
+  "keywords": [
+    "Node.js",
+    "Eclipse",
+    "Nodeclipse",
+    "JovemNerd",
+    "SkyNerd"
+  ],
+  "dependencies" : {
+	"express" : "*",
+	"express-namespace" : "*",
+	"jade" : "*",
+	"mysql" : "*",
+	"nodemailer" : "*",
+	"underscore" : "*"
+  },
+  "author": "github@diegomrod; dmr95dmr@gmail.com",
+  "license": "",
+  "readmeFilename": "README.md"
+}
