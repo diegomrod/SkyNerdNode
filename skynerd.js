@@ -30,6 +30,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.errorHandler());
 
 /**
+ * Variáveis visiveis em todas views
+ * */
+app.locals({
+  site_name : API.SITE_NAME
+});
+
+/**
  * Adm Namespace
  * */
 app.namespace('/adm', function () {
