@@ -1,5 +1,15 @@
-doctype 5
+doctype html
+html
   head
     meta(http-equiv='Content-Type', content='text/html;charset=utf-8')
     title SkyNerd Node
+    link(href='templates/default/css/reset.css', rel='stylesheet', type='text/css')
+    link(href='templates/default/css/estilos.css', rel='stylesheet', type='text/css')
+    link(href='templates/default/css/comentarios.css', rel='stylesheet', type='text/css')
+    link(href='templates/default/css/jquery.jcrop.css', rel='stylesheet', type='text/css')
+    link(rel="shortcut icon", href='/favicon.ico', type='image/x-icon')
+    script(type='text/javascript', src='templates/default/js/jquery.js')
   body
+    #wrapper
+      include header
+      block content
